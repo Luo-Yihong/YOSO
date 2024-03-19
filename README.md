@@ -33,5 +33,5 @@ imgs
 ![man](man.jpg)
 
 ## Contact
-Please contact Yihong Luo (yluocg@connect.ust.hk) if you have any questions about this paper.
+Please contact Yihong Luo (yluocg@connect.ust.hk) if you have any questions about this work.
 
