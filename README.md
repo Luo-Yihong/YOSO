@@ -1,1 +1,1 @@
-# YOSO
+# You Only Sample Once (YOSO)
