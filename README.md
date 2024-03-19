@@ -4,6 +4,6 @@ This is the Official Repository of  You Only Sample Once: Taming One-Step Text-T
 ![overview](overview.jpg)
 
 ## Pre-trained Models
-- YOSO-PixArt-α-512
-- YOSO-PixArt-α-1024
-- YOSO-sd1.5-lora
+- [YOSO-PixArt-α-512](https://huggingface.co/Luo-Yihong/yoso_pixart512)
+- [YOSO-PixArt-α-1024](https://huggingface.co/Luo-Yihong/yoso_pixart1024)
+- [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora)
