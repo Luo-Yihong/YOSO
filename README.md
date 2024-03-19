@@ -7,13 +7,12 @@ This is the Official Repository of  You Only Sample Once: Taming One-Step Text-T
 - [YOSO-PixArt-α-512](https://huggingface.co/Luo-Yihong/yoso_pixart512)
 - [YOSO-PixArt-α-1024](https://huggingface.co/Luo-Yihong/yoso_pixart1024)
 - [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora)
-
+This is an early version of our pre-trained models, it may be updated soon.
 Note that YOSO-PixArt-α-512 is trained on JourneyDB with 512 resolution. YOSO-PixArt-α-1024 is obtained by directly merging YOSO-PixArt-α-512 with [PixArt-XL-2-1024-MS](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS).
 
 ## Usage
 We take [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora) as an example.
-
-It is highly recommended to use [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora) with realistic-vision-v51, you can generate impressive samples within 2 steps:
+It is highly recommended to utilize [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora)in conjunction with realistic-vision-v51 to produce impressive samples by 2 steps.
 ```python
 pipeline = DiffusionPipeline.from_pretrained("stablediffusionapi/realistic-vision-v51", torch_dtype = torch.float16)
 pipeline = pipeline.to('cuda')
