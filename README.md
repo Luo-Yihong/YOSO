@@ -4,3 +4,4 @@ This is the Official Repository of  You Only Sample Once: Taming One-Step Text-T
 ![overview](overview.jpg)
 
 ## Pre-trained Models
+- YOSO-PixArt-\alpha
