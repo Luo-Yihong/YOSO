@@ -7,7 +7,9 @@ This is the Official Repository of  You Only Sample Once: Taming One-Step Text-T
 - [YOSO-PixArt-α-512](https://huggingface.co/Luo-Yihong/yoso_pixart512)
 - [YOSO-PixArt-α-1024](https://huggingface.co/Luo-Yihong/yoso_pixart1024)
 - [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora)
-This is an early version of our pre-trained models, it may be updated soon.
+- 
+This is an early version of our pre-trained models, it is expected to be updated soon.
+
 Note that YOSO-PixArt-α-512 is trained on JourneyDB with 512 resolution. YOSO-PixArt-α-1024 is obtained by directly merging YOSO-PixArt-α-512 with [PixArt-XL-2-1024-MS](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS).
 
 ## Usage
