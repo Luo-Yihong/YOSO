@@ -12,7 +12,7 @@ Note that YOSO-PixArt-α-512 is trained on JourneyDB with 512 resolution. YOSO-P
 
 ## Usage
 We take [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora) as an example.
-It is highly recommended to utilize [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora)in conjunction with realistic-vision-v51 to produce impressive samples by 2 steps.
+It is highly recommended to utilize [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora) in conjunction with realistic-vision-v51 to produce impressive samples by 2 steps.
 ```python
 pipeline = DiffusionPipeline.from_pretrained("stablediffusionapi/realistic-vision-v51", torch_dtype = torch.float16)
 pipeline = pipeline.to('cuda')
