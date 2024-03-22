@@ -37,3 +37,15 @@ imgs
 ## Contact
 Please contact Yihong Luo (yluocg@connect.ust.hk) if you have any questions about this work.
 
+## Bibtex
+```
+@misc{luo2024sample,
+   title={You Only Sample Once: Taming One-Step Text-To-Image Synthesis by Self-Cooperative Diffusion GANs},
+  author={Yihong Luo and Xiaolong Chen and Jing Tang},
+  booktitle={arXiv preprint arxiv:2403.12931},
+  year={2024},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+```
+
