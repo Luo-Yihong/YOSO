@@ -10,12 +10,14 @@ This is the Official Repository of  "[You Only Sample Once: Taming One-Step Text
   
 This is an early version of our pre-trained models, it is expected to be updated soon.
 
-Note that YOSO-PixArt-α-512 is trained on JourneyDB with 512 resolution. YOSO-PixArt-α-1024 is obtained by directly merging YOSO-PixArt-α-512 with [PixArt-XL-2-1024-MS](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS), without extra explicitly training on 1024 resolution.
+Note that YOSO-PixArt-α-512 is trained on JourneyDB with 512 resolution. YOSO-PixArt-α-1024 is obtained by directly merging YOSO-PixArt-α-512 with [PixArt-XL-2-1024-MS](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS), without extra explicit training on 1024 resolution.
 
 ## Usage
 We take [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora) as an example.
 It is highly recommended to utilize [YOSO-sd1.5-lora](https://huggingface.co/Luo-Yihong/yoso_sd1.5_lora) in conjunction with realistic-vision-v51 to produce impressive samples by 2 steps.
 ```python
+import torch
+from diffusers import DiffusionPipeline, LCMScheduler
 pipeline = DiffusionPipeline.from_pretrained("stablediffusionapi/realistic-vision-v51", torch_dtype = torch.float16)
 pipeline = pipeline.to('cuda')
 pipeline.scheduler = LCMScheduler.from_config(pipeline.scheduler.config)
