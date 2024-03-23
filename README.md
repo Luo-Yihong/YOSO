@@ -30,9 +30,29 @@ imgs= pipeline(prompt="A photo of a man, XT3",
                         generator = generator,
                         guidance_scale=1.5,
                    )[0]
-imgs
+imgs[0]
 ```
 ![man](man.jpg)
+
+Moreover, it is observed that when combined with new base models, our YOSO-LoRA is able to use some advanced ode-solvers；
+```python
+import torch
+from diffusers import DiffusionPipeline, DPMSolverMultistepScheduler
+pipeline = DiffusionPipeline.from_pretrained("stablediffusionapi/realistic-vision-v51", torch_dtype = torch.float16)
+pipeline = pipeline.to('cuda')
+pipeline.scheduler = DPMSolverMultistepScheduler.from_pretrained("runwayml/stable-diffusion-v1-5", subfolder="scheduler")
+generator = torch.manual_seed(323)
+steps = 2
+imgs= pipeline(prompt="A photo of a girl, XT3",
+                    num_inference_steps=steps, 
+                    num_images_per_prompt = 1,
+                        generator = generator,
+                        guidance_scale=1.5,
+                   )[0]
+imgs[0]
+```
+![girl](girl.jpg)
+We encourage you to experiment with various solvers to obtain better samples. We will try to improve the compatibility of the YOSO-LoRA with different solvers.
 
 ## Contact
 Please contact Yihong Luo (yluocg@connect.ust.hk) if you have any questions about this work.
