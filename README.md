@@ -34,7 +34,7 @@ imgs[0]
 ```
 ![man](man.jpg)
 
-Moreover, it is observed that when combined with new base models, our YOSO-LoRA is able to use some advanced ode-solvers；
+Moreover, it is observed that when combined with new base models, our YOSO-LoRA is able to use some advanced ode-solvers:
 ```python
 import torch
 from diffusers import DiffusionPipeline, DPMSolverMultistepScheduler
@@ -52,6 +52,7 @@ imgs= pipeline(prompt="A photo of a girl, XT3",
 imgs[0]
 ```
 ![girl](girl.jpg)
+
 We encourage you to experiment with various solvers to obtain better samples. We will try to improve the compatibility of the YOSO-LoRA with different solvers.
 
 ## Contact
