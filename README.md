@@ -14,6 +14,7 @@ This is the Official Repository of  "[You Only Sample Once: Taming One-Step Text
 ## 🔥News 
 
 - (2024/05/28) Training code of YOSO-LoRA is released!!!
+- (2024/06/24) We update [YOSO-PixArt-α-512](https://huggingface.co/Luo-Yihong/yoso_pixart512) with better performance compared to previous released checkpoint. Enjoy it!
 
 ## Pre-trained Models
 
