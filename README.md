@@ -6,14 +6,14 @@
 </div>
 
 
-This is the Official Repository of  "[You Only Sample Once: Taming One-Step Text-to-Image Synthesis by Self-Cooperative Diffusion GANs](https://www.arxiv.org/abs/2403.12931)", by *Yihong Luo, Xiaolong Chen, Xinghua Qu, Jing Tang*.
+This is the Official Repository of  "[You Only Sample Once: Taming One-Step Text-to-Image Synthesis by Self-Cooperative Diffusion GANs](https://www.arxiv.org/abs/2403.12931)", by *Yihong Luo, Xiaolong Chen, Xinghua Qu, Tianyang Hu, Jing Tang*.
 ![overview](figures/overview.jpg)
 
 
 
 ## 🔥News 
-
-- (2024/05/28) Training code of YOSO-LoRA is released!!!
+- (2024/10/21) We update a new version of the technical report. In particular, we re-train the YOSO-LoRA via more computational resources and better data, achieving better one-step performance. Check the technical report for more details! The newly trained LoRA may be released in the next few months.
+- (2024/05/28) Training code of YOSO-LoRA is released!!! 
 - (2024/06/04) We update [YOSO-PixArt-α-512](https://huggingface.co/Luo-Yihong/yoso_pixart512) with better performance compared to previous released checkpoint. Enjoy it!
 
 ## Pre-trained Models
