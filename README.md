@@ -12,6 +12,7 @@ This is the Official Repository of  "[You Only Sample Once: Taming One-Step Text
 
 
 ## 🔥News 
+- (2025/03/11) We release [TDM](https://github.com/Luo-Yihong/TDM), unifying the trajectory distillation and distribution. TDM can distill pre-trained DMs to a few-step generator with better performance with extremely low cost. In particular, TDM distills PixArt to a 4-step generator with 2 A800 hours and outperforms the teacher regarding real user preference.
 - (2025/01/23) YOSO is accepted by ICLR 2025 🎉
 - (2024/10/21) We update a new version of the [technical report](https://www.arxiv.org/abs/2403.12931). In particular, we re-train the YOSO-LoRA via more computational resources and better data, achieving better one-step performance. Check the technical report for more details! The newly trained LoRA may be released in the next few months.
 - (2024/05/28) Training code of YOSO-LoRA is released!!! 
