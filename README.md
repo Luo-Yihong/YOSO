@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://yoso-t2i.github.io/"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
-  <a href="https://arxiv.org/abs/2403.12931"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:YOSO&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://arxiv.org/abs/2403.12931"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:YOSO&color=red&logo=ICLR"></a> &ensp;
 </div>
 
 
